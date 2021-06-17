@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('fonts/icon.eot?ob6m3w');
+  src:  url('fonts/icon.eot?ob6m3w#iefix') format('embedded-opentype'),
+    url('fonts/icon.ttf?ob6m3w') format('truetype'),
+    url('fonts/icon.woff?ob6m3w') format('woff'),
+    url('fonts/icon.svg?ob6m3w#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="contacts-"], [class*=" contacts-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.contacts-facebook:before {
+  content: "\e900";
+}
+.contacts-google-plus:before {
+  content: "\e901";
+}
+.contacts-odnoklassniki:before {
+  content: "\e902";
+}
+.contacts-twitter:before {
+  content: "\e903";
+}
+.contacts-vk:before {
+  content: "\e904";
+}
+.contacts-youtube:before {
+  content: "\ea9e";
+}
